@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+pip install -r requirements.txt
+echo Starting Dashboard...
+streamlit run Shane_dynamic_dashboard.py
+pause
